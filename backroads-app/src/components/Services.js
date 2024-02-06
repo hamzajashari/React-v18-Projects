@@ -1,6 +1,6 @@
 import { services } from "../data";
-import { Service } from "./Service";
-import Title from "./Title";
+import Title from "./Index/Title";
+import Service from "./Index/Service";
 
 const Services = () => {
   return (

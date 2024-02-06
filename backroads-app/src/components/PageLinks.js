@@ -1,6 +1,5 @@
 import { pageLinks } from "../data";
-import { PageLink } from "./PageLink";
-
+import { PageLink } from "./Index/PageLink";
 export const PageLinks = ({parentClass,itemClass}) => {
   return (
     <ul className={parentClass} id={parentClass}>

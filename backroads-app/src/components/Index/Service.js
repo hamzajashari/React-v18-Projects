@@ -13,3 +13,4 @@ export const Service = ( {icon, title, text } ) => {
   </article>
   )
 }
+export default Service

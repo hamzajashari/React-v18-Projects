@@ -7,3 +7,4 @@ export const SocialLink = ({ href, icon, itemClass }) => {
     </li>
   );
 };
+export default SocialLink
