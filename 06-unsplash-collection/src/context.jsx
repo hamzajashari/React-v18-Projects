@@ -17,6 +17,8 @@ const initialDarkMode = () => {
 export const AppProvider = ({ children }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(initialDarkMode);
   const [searchTerm, setSearchTerm] = useState("cat");
+  const [page, setPage] = useState(1);
+
   const toggleTheme = () => {
     const newDarkTheme = !isDarkTheme;
     setIsDarkTheme(newDarkTheme);
@@ -29,7 +31,7 @@ export const AppProvider = ({ children }) => {
 
   return (
     <AppContext.Provider
-      value={{ isDarkTheme, toggleTheme, searchTerm, setSearchTerm }}
+      value={{ isDarkTheme, toggleTheme, searchTerm, setSearchTerm ,page,setPage}}
     >
       {children}
     </AppContext.Provider>

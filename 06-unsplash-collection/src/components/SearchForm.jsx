@@ -21,7 +21,7 @@ const {setSearchTerm} = useGlobalContext();
           className="form-input
           search-input"
           name="search"
-          placeholder="cat"
+          placeholder="Search"
         />
         <button className="btn" type="submit">
           search
