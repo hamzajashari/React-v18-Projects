@@ -1,27 +1,19 @@
-# Backroads App
+# JourneyUnveiled App
 
-[Working Application - Deployed](https://backroads-app.netlify.app/)
+[Working Application - Deployed]()
 
-- backroads-html - working html/css/javascript project (contains assets)
+- JourneyUnveiled-html - working html/css/javascript project (contains assets)
 - final(complete source code) - working react application
   - navigate to the folder
   - run 'npm install'
   - once the dependencies are installed run 'npm start'
-
-#### React Course
-
-[My React Course](https://www.udemy.com/course/react-tutorial-and-projects-course/?referralCode=FEE6A921AF07E2563CEF)
-
-#### Support
-
-Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
 
 #### Create New React App
 
 - install
 
 ```sh
-npx create-react-app@latest backroads-app
+npx create-react-app@latest JourneyUnveiled-app
 ```
 
 - run dev server
@@ -75,7 +67,7 @@ App.js
 
 ```js
 function App() {
-  return <h1>backroads app</h1>
+  return <h1>JourneyUnveiled app</h1>
 }
 
 export default App
@@ -147,7 +139,7 @@ export default App
 import logo from '../images/logo.svg'
 
 // JSX
-;<img src={logo} className='nav-logo' alt='backroads' />
+;<img src={logo} className='nav-logo' alt='JourneyUnveiled' />
 ```
 
 #### Smooth Scroll
