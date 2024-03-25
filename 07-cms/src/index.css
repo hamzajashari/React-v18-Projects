@@ -370,3 +370,22 @@ PROJECTS
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+/* 
+Loading 
+*/
+@keyframes spinner{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.loading{
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid var(--grey-400);
+  border-radius: 50%;
+  margin: 5rem auto;
+  border-top-color: var(--primary-500);
+  animation: spinner 0.9s linear infinite;
+}
